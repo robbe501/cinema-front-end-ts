@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="ts/index.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        
+        <div class="logo">
+            <span class="material-icons"> theaters </span>
+            <span class="logo-text">TypeScript Cinema</span>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="menu-item">
+                <a href="movies.html">Movies</a>
+            </div>
+            <div class="menu-item">
+                <a href="ticket.html">Ticket</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Set up your HTML -->
+    <div class="carousel"> 
+        <div class="owl-carousel owl-theme owl-loaded">
+            <div> <img class="slide-image" src=""/> </div>
+            <div> <img class="slide-image" src=""/> </div>
+            <div> <img class="slide-image" src=""/> </div>
+            <div> <img class="slide-image" src=""/> </div>
+            <div> <img class="slide-image" src=""/> </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="div-footer">
+            <p class="find">Where to find us?</p>
+            <p>
+                Via Lattea, 12 <br>
+                (+39) 391 2421512 <br>
+                cinema@gmail.com <br>
+            </p>
+        </div>
+        <div class="div-footer">
+            <img class="footer-image" src="https://img.freepik.com/premium-vector/movie-cinema-premiere-background_41737-251.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            center:true,
+            dots:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

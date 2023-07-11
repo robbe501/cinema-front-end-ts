@@ -1,0 +1,173 @@
+:root{
+    /* --header: #4f405a ;
+    --bg: #1d1b14;
+    --text: #E6E8E6; */
+    --header: #2D3142 ;
+    --bg: #181b2b;
+    --text: #E6E8E6;
+
+    --texthover: #EF8354;
+
+}
+
+.header {
+    background-color: var(--header);
+    display: flex;
+    height: 50px
+    
+    
+}
+
+body {
+    color: var(--text) !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: var(--bg)!important;
+    height: 100%;
+;
+}
+
+.menu {
+    margin-left: auto; 
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-item{
+    margin-right: 20px;
+}
+
+.menu-item a:hover {
+    color: var(--texthover)
+}
+
+.logo {
+    margin: auto;
+    margin-left: 20px;
+}
+.logo-text{
+    margin-left: 30px;
+}
+
+.carousel {
+    padding-top: 40px;
+}
+
+.find{
+    font-size: 15pt;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--text)!important ;
+}
+
+.card-footer {
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 2px;
+    box-shadow: 7px 7px var(--text);
+    margin-bottom: 50px;
+}
+
+.footer-image {
+    width: 200px;
+}
+
+
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 13px;
+}
+
+.right-arrow, .left-arrow {
+    color: var(--text) !important;
+}
+
+
+.dynamic-film {
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 60% !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: solid 2px;
+    box-shadow: 7px 7px var(--text);
+    margin-bottom: 50px;
+    
+}
+
+.desc{
+    margin-left: 200px;
+}
+
+
+.form-container {
+    background-color: var(--header);
+
+    display: flex;
+    justify-content: center;
+
+    margin: 50px 35%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 10px;
+    border: solid 2px;
+    box-shadow: 7px 7px var(--text);
+    
+    
+}
+
+.input {
+    margin-bottom: 8px;
+}
+
+.book {
+    border-radius: 3px;   
+}
+
+.modal-content{
+    color: var(--text) !important;
+}
+
+.modal-header, .modal-footer, .modal-body {
+    background-color: var(--header);
+}
+
+.x-button {
+    color: var(--text) !important;
+}
